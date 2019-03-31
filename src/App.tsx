@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import logo from './logo.svg';
 
-class App extends Component {
-  render() {
-    return (
+const App = function() {
+  return (
+    <BrowserRouter>
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -21,8 +22,8 @@ class App extends Component {
           </a>
         </header>
       </div>
-    );
-  }
-}
+    </BrowserRouter>
+  );
+};
 
 export default App;
