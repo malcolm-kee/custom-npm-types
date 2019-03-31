@@ -1,3 +1,7 @@
+# custom-npm-types
+
+An example app to show how to add custom typings for node_modules in a CRA app.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
